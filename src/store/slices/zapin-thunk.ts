@@ -228,10 +228,8 @@ export const ZapIn = createAsyncThunk("zapin/zapIn", async ({ provider, bond, to
     
     const valueInWei = trim(Number(value) * Math.pow(10, token.decimals));
 
-    let zapinTx;
-    let overrides;
-    //if (token == "BSC") {zapIn}
-    //else {zapInToken}
+    let zapinTx
+    let overrides
     
     try {
         if (token.name == "BNB") {
