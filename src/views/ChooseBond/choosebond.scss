@@ -18,13 +18,12 @@
     z-index: 2;
     
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-      background: rgba(36, 39, 41, 0.1);
-      backdrop-filter: blur(40px);
+      background: #1a1c27;
     }
   
     /* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
     @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
-      background: #181B1C;
+      background: #1a1c27;
     }
 
     .choose-bond-view-card-header{
@@ -75,8 +74,7 @@
 
     .bond-data-card {
       margin: auto !important;
-      background: rgba(36, 39, 41, 0.1);
-      backdrop-filter: blur(40px);
+      background: #1a1c27;
       border-radius: 10px;
       padding: 20px;
       width: 100%;

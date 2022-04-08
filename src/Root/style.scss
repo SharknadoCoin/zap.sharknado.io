@@ -38,7 +38,7 @@ p{
   backdrop-filter: blur(100px) !important;
 
   .web3modal-modal-card{
-    background: #181B1C;
+    background: #1a1c27;
     backdrop-filter: blur(100px);
     border-radius: 10px;
 
@@ -91,13 +91,13 @@ p{
     padding: 30px 20px 20px 20px;
 
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-      background: #181B1C;
+      background: #1a1c27;
       backdrop-filter: blur(100px);
     }
   
     /* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
     @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
-      background: #181B1C;
+      background: #1a1c27;
     }
 
     .walletconnect-modal__header{

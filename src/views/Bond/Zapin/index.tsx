@@ -179,9 +179,9 @@ function Zapin({ open, handleClose, bond }: IZapinProps) {
                     <IconButton onClick={handleClose}>
                         <SvgIcon color="primary" component={XIcon} />
                     </IconButton>
-                    <IconButton style={{ marginLeft: "auto" }} onClick={handleSettingsOpen}>
+                    {/* <IconButton style={{ marginLeft: "auto" }} onClick={handleSettingsOpen}>
                         <SvgIcon color="primary" component={SettingsIcon} />
-                    </IconButton>
+                    </IconButton> */}
                 </div>
                 {<Box className="card-content">
                     <div className="zapin-header">

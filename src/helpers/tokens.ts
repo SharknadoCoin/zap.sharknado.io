@@ -1,6 +1,6 @@
-import AvaxIcon from "../assets/tokens/AVAX.svg";
+import SssIcon from "../assets/tokens/SSS.png";
 import BnbIcon from "../assets/tokens/BNB.png";
-import MimIcon from "../assets/tokens/MIM.svg";
+import SeaIcon from "../assets/tokens/SEA.png";
 import UsdtEIcon from "../assets/tokens/USDT.e.png";
 import WavaxIcon from "../assets/tokens/WAVAX.png";
 import YakIcon from "../assets/tokens/busd.png";
@@ -29,13 +29,13 @@ export const wbnb: IToken = {
 }; */
 export const sea: IToken = {
     name: "SEA",
-    img: MimIcon,
+    img: SeaIcon,
     address: "0x26193C7fa4354AE49eC53eA2cEBC513dc39A10aa",
     decimals: 18,
 };
 export const sss: IToken = {
     name: "SSS",
-    img: AvaxIcon,
+    img: SssIcon,
     address: "0xC3028FbC1742a16A5D69dE1B334cbce28f5d7EB3",
     decimals: 18,
 };
