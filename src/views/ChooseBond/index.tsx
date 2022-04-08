@@ -61,12 +61,12 @@ function ChooseBond() {
                         <Grid container item>
                             <TableContainer className="choose-bond-view-card-table">
                                 <Table>
-                                    <TableHead>
+                                   {/*  <TableHead>
                                         <TableRow>
                                             <TableCell align="center">
                                                 <p className="choose-bond-view-card-table-title">LP</p>
                                             </TableCell>
-                                            {/* <TableCell align="center">
+                                            <TableCell align="center">
                                                 <p className="choose-bond-view-card-table-title">Price</p>
                                             </TableCell>
                                             <TableCell align="center">
@@ -74,10 +74,10 @@ function ChooseBond() {
                                             </TableCell>
                                             <TableCell align="right">
                                                 <p className="choose-bond-view-card-table-title">Purchased</p>
-                                            </TableCell> */}
+                                            </TableCell>
                                             <TableCell align="right"></TableCell>
                                         </TableRow>
-                                    </TableHead>
+                                    </TableHead> */}
                                     <TableBody>
                                         {bonds.map(bond => (
                                             <BondTableData key={bond.name} bond={bond} />
@@ -89,6 +89,12 @@ function ChooseBond() {
                     )}
                 </div>
             </Zoom>
+
+            <div className="choose-bond-view-card-container">
+                <a href="https://docs.sharknado.io/products/zap" target="_blank">
+                    <p className="bond-name-title">Read our Docs about the Zap</p>
+                </a>
+            </div>
 
             {isSmallScreen && (
                 <div className="choose-bond-view-card-container">
